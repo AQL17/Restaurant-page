@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A restaurant page utilizing the prowess of Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AQL17/Restaurant-page.git"
+  },
+  "author": "Abdulqadir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AQL17/Restaurant-page/issues"
+  },
+  "homepage": "https://github.com/AQL17/Restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
