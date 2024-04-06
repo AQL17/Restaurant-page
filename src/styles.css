@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+}
+
+.head{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#content{
+    height: 80vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+    justify-content: center;
+    text-align: center;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px;
+}
+.page-title{
+    color: azure;
+}
+
+button{
+    width: 100px;
+    color: azure;
+    background-color: darkslateblue;
+    font-size: larger;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    align-self: center;
+    justify-self: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
